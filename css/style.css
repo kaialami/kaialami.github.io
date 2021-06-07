@@ -15,7 +15,7 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 1.7;
-  color: 504f4f;
+  color: #504f4f;
   background: #e8e8e8;
 }
 
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .container-wrap {
   max-width: 1060px;
   margin: 0 auto;
-  margin-bottom: 1em;
+  margin-bottom: 4em;
   background: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -1619,6 +1619,32 @@ iframe {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 991px) {
+  iframe {
+    width: 720px;
+    height: 405px;
+  }
+}
+@media screen and (max-width: 830px) {
+  iframe {
+    width: 576px;
+    height: 324px;
+  }
+}
+@media screen and (max-width: 414px) {
+  iframe {
+    width: 346px;
+    height: 194px;
+  }
+}
+@media screen and (max-width: 360px) {
+  iframe {
+    width: 277px;
+    height: 155px;
+  }
+}
+
+
 .performance-desc {
   margin-bottom: 40px;
 }
@@ -1637,10 +1663,47 @@ iframe {
 
 @media screen and (max-width: 768px) {
   .photo-vert {
-    width: 70%;
+    width: 90%;
   }
   .photo-hor {
     width: 100%;
   }
 }
 
+hr {
+  border-width: 6px;
+  border-color: #729ed3;
+  margin-bottom: 80px;
+}
+
+.page-title {
+  margin-bottom: 30px; 
+  margin-top: -40px;
+}
+
+.page-desc {
+  margin-bottom: 90px; 
+  margin-top: -10px;
+}
+
+.outline {
+  text-shadow: 2px 2px black;
+  color: #fff !important;
+}
+
+.bio {
+  font-size: 16px !important;
+}
+
+.about-title {
+  padding-top: 8px; 
+  border-bottom: 4px #729ed3 solid; 
+  padding-bottom: 10px;
+}
+
+.index-icons {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
