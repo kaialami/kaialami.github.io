@@ -586,10 +586,10 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translate3d(0, 15px, 0);
 }
 @media screen and (max-width: 768px) {
-  .work .desc {
+  /* .work .desc {
     opacity: 1;
     background: transparent !important;
-  }
+  } */
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
