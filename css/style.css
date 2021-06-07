@@ -1550,7 +1550,7 @@ li {
   border-radius: 3px 0 0 3px;
 }
 .prev {
-  left: 3px;
+  left: 0px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -1589,6 +1589,7 @@ li {
 .demo {
   opacity: 0.6;
   padding: 0;
+  width: 100%;
 }
 
 .active,
@@ -1603,3 +1604,43 @@ img {
 * {
   box-sizing: border-box;
 }
+
+/* @media screen and (max-width: 991px) {
+  .demo {
+    width: 20%;
+  }
+} */
+
+.performance-title {
+  margin-bottom: 30px;
+}
+
+iframe {
+  margin-bottom: 30px;
+}
+
+.performance-desc {
+  margin-bottom: 40px;
+}
+
+.vid-title {
+  text-align: left;
+}
+
+.photo-vert {
+  width: 50%;
+}
+
+.photo-hor {
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .photo-vert {
+    width: 70%;
+  }
+  .photo-hor {
+    width: 110%;
+  }
+}
+
