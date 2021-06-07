@@ -587,7 +587,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .work .desc {
-    opacity: 0;
+    opacity: 0 !important;
   }
   
   .work .desc h3 {
@@ -600,7 +600,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .work:hover .desc {
-  opacity: 1;
+  opacity: 1 !important;
 }
 .work:hover .desc h3 {
   -webkit-transform: translate3d(0, 0, 0);
