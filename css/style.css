@@ -587,9 +587,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .work .desc {
-    opacity: 0 !important;
+    opacity: 1;
+    background: transparent !important;
   }
-  
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -600,7 +600,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .work:hover .desc {
-  opacity: 1 !important;
+  opacity: 1;
 }
 .work:hover .desc h3 {
   -webkit-transform: translate3d(0, 0, 0);
@@ -1726,4 +1726,14 @@ hr {
 
 .stay-tuned {
   margin: 6em 0 3em 0;
+}
+
+@media screen and (max-width: 768px){
+  .preview {
+    opacity: 0 !important;
+  }
+  .preview:hover {
+    opacity: 1;
+    background: transparent !important
+  }
 }
