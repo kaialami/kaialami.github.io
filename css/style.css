@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .container-wrap {
   max-width: 1060px;
   margin: 0 auto;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   background: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -667,7 +667,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text {
   position: relative;
   width: 100%;
-  padding: 30px;
+  padding: 0px;
   float: left;
   border: 1px solid rgba(0, 0, 0, 0.05);
   -webkit-transition: 0.3s;
@@ -678,7 +678,6 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   margin-bottom: 20px;
   font-size: 14px !important;
-  color: rgba(0, 0, 0, 0.3);
 }
 .fh5co-blog .blog-text .stuff {
   margin: 0;
@@ -1615,30 +1614,47 @@ img {
   margin-bottom: 30px;
 }
 
-iframe {
+.performances {
   margin-bottom: 30px;
 }
 
+.projects {
+  margin: auto;
+}
+
 @media screen and (max-width: 991px) {
-  iframe {
+  .performances {
     width: 720px;
     height: 405px;
   }
+  .projects {
+    text-align: center !important;
+  }
 }
 @media screen and (max-width: 830px) {
-  iframe {
+  .performances {
     width: 576px;
     height: 324px;
   }
 }
 @media screen and (max-width: 414px) {
-  iframe {
+  .performances {
     width: 346px;
     height: 194px;
   }
+  .project-vid{
+    width: 359px;
+    height: 202px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .project-vid {
+    width: 287px;
+    height: 162px;
+  }
 }
 @media screen and (max-width: 360px) {
-  iframe {
+  .performances {
     width: 277px;
     height: 155px;
   }
@@ -1677,7 +1693,7 @@ hr {
 }
 
 .page-title {
-  margin-bottom: 30px; 
+  margin-bottom: 50px; 
   margin-top: -40px;
 }
 
@@ -1706,4 +1722,8 @@ hr {
   display: block;
   margin: 0 auto;
   padding-bottom: 2em;
+}
+
+.stay-tuned {
+  margin: 6em 0 3em 0;
 }
