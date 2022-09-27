@@ -1,4 +1,4 @@
-#Music website
+##Music website
 This is a website I created for my 12th grade music class in which we designed our own websites detailing our musical "careers." I only needed to use a graphical website designer (Wix.com) but since I was learning some coding and website development through a teacher, I challenged myself to create a website in HTML using a template.
 
 
